@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>JS.ENGG & WELDING WORKS</title>
+        <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+        <script type="text/javascript">
+        $(document).ready(function(){
+            $('.toggle span').click(function(){
+                $('ul').toggleClass('active')
+            })
+        })
+        </script>
+        
+        <link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+        <style class="text/css">
+        
+            body{
+                background-color: #262626;
+                margin: 0px;
+                padding: 0px;
+                background-image: url(image/bg.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center center;
+                background-attachment: fixed;
+                padding-bottom: 50px;
+                
+            }
+            .logo
+                {
+                max-width: 100%;
+                margin: 10px 48px;
+                height: 48px;
+    
+                }   
+            nav{
+                position: relative;
+                width: 100%;
+                padding: 0 100px;
+                background: #262626;
+                box-sizing: border-box;
+            }
+            nav ul{
+                position: relative;
+                margin: 0;
+                padding: 0;
+                float: right;
+            }
+            nav ul li{
+                padding-top: 7px;
+                list-style: none;
+                display: inline-block;
+            }
+            nav ul li a{
+                display: block;
+                color: #fff;
+                text-decoration: none;
+                padding: 20px;
+                font-weight: bold;
+            }
+            nav ul li a.active,
+            nav ul li a:hover{
+                color: #262626;
+                background: #ff0;
+            }
+            .toggle{
+                width: 100%;
+                background: #262626;
+                padding: 20px;
+                box-sizing: border-box;
+                text-align: right;
+                display: none;
+            }
+            .toggle span{
+                color: #262626;
+                background: #ff0;
+                padding: 5px 10px;
+                cursor: pointer;
+                font-weight: bold;
+            }
+            .slideshow-container {
+                  width: 20%;
+                  position: relative;
+                  margin: auto;
+                }
+
+
+            .mySlides {
+                    display: none;
+                }
+
+
+            .prev, .next {
+                  cursor: pointer;
+                  position: absolute;
+                  top: 50%;
+                  width: auto;
+                  margin-top: -22px;
+                  padding: 16px;
+                  color: black;
+                  font-weight: bold;
+                  font-size: 18px;
+                  transition: 0.6s ease;
+                  border-radius: 0 3px 3px 0;
+                }
+
+            .next {
+                  right: 0;
+                  border-radius: 3px 0 0 3px;
+                }
+
+            .prev:hover, .next:hover {
+                  background-color: rgba(0,0,0,0.8);
+                }
+
+            .fade {
+                  -webkit-animation-name: fade;
+                  -webkit-animation-duration: 1.5s;
+                  animation-name: fade;
+                  animation-duration: 1.5s;
+                }
+
+            @-webkit-keyframes fade {
+                  from {opacity: .4} 
+                  to {opacity: 1}
+                }
+
+            @keyframes fade {
+                  from {opacity: .4} 
+                  to {opacity: 1}
+                }
+
+
+
+            .h1{
+                font-family: cursive;
+                font-weight: bold;
+                font-size: 1.5vw;
+                position: relative;
+                padding-left: 6%;
+                color: red;
+                font-style: oblique;
+            }
+            .paragraph1
+
+                {
+                max-width: 100%;
+                padding-top: 20px;
+                position: relative;
+                font-family: cursive;
+                font-size: 3vw;
+                font-weight: bold;
+                font-style: normal;
+                padding-left: 150px;
+                padding-right: 150px;
+                color: darkorange;
+            }
+            
+            @import url('https://fonts.googleapis.com/css?family=Raleway');
+#text{
+    background-size: cover;
+    position: relative;
+    display:none;
+    color: darkorange;
+    font-size: 1.5vw;
+    font-family: cursive;
+    font-weight: bold;
+    font-style: normal;
+}
+.btn-container{
+  margin: auto;
+  height:44px;
+  width:166.23px;
+  
+}
+a:active{
+  color:#ffd323;
+}
+
+button{
+  user-select:none;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  cursor:pointer;
+  border:none;
+  padding:8px;
+  font-size:2vw;
+  background:linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+  color:white;
+  font-family:cursive;
+  box-sizing:border-box;
+}
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            @media (max-width: 767px)
+            {
+                .toggle{
+                    display: block;
+                }
+                nav{
+                    padding: 0;
+                }
+                nav ul{
+                    float: none;
+                    text-align: center;
+                    display: none;
+                }
+                nav ul.active{
+                    display: block;
+                }
+                nav ul li{
+                display: block;
+                }
+        </style> 
+        
+    </head>
+    
+<body>
+    <nav>
+        <div class="toggle">
+        <span>Menu</span>
+        </div>
+        <div class="nav-bar">
+        <img src="image/logo.jpg" class="logo">
+    <ul>
+        <li><a href="index.html" class="active">HOME</a></li>
+        <li><a href="Gallery.html">GALLERY</a></li>
+        <li><a href="service.html">SERVICE</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+            <div style="clear: both"></div></div>
+    </nav>
+    
+    
+    
+    
+    <div class="slideshow-container">
+
+<center><div class="mySlides fade">
+  <img src="image/REPARING.jpg" style="width:100%; height: 0%">
+</div>
+
+<div class="mySlides fade">
+  <img src="image/BUYING.jpg" style="width:100%; height: 0%">
+</div>
+
+<div class="mySlides fade">
+  <img src="image/WELDING.jpg" style="width:100%; height: 0%">
+    </div></center>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="/" onclick="currentSlide(1)"></span> 
+  <span class="/" onclick="currentSlide(2)"></span> 
+  <span class="/" onclick="currentSlide(3)"></span> 
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+    
+    <div class="h1">
+    
+   <h1>WELCOME TO J.S.ENGG. & WELDING WORKS</h1>
+    </div>
+    
+    <div class="paragraph1">
+        
+            JS.ENGG and Welding Works has been manufacturing Architectural and Structural parts for the Commercial, Industrial, and Agricultural ventures since 1992.
+        </div><br><br>
+    <h1 align="center" style= "color: white;">SOME MORE THINGS</h1>
+
+<div>
+  <br>
+ <span id="text">
+        Design creations incorporate bended and winding stairs with essential guardrails and handrails made of steel, treated steel, aluminum, metal, bronze, and link parts. Painting, powdercoating, and brush completing are models of the different enlivening completions joined into our assembling forms, including custom examples and compositionally troubled treated steel and aluminum boards. On location metal graining, sandblasting, passivating, and painting hardware makes accomplishing numerous structural example conceivable. 
+
+Auxiliary manufactures incorporate steel encircled structures, rooftop structures, minute casings, supported edges, seismic retrofits, shelters, and trellises. Sections, pillars, supports, braces, and headers are accessible parts for different half and half confined structures too. 
+
+Mechanical creations incorporate mezzanines, catwalks, stairs, railing, transports, plenums, chutes, containers, stockpiling racks, and canisters for assembling offices, angle incubation facilities, nourishment handling gear, and test type applications. Hardened steel, aluminum, and hot-plunged electrifies steel varieties are accessible for these things. 
+
+Horticultural items adjusting the tomato, almond, and lettuce businesses are availables and incorporate both fueled and non-controlled actualizes, for example, mulchers, listers, vine mentors, and spring instruments. Also, new parts are accessible for reapers and other related cultivating gear..<br>
+   <span class="source"></span>
+  </span>
+</div>
+<div class="btn-container">
+<button id="toggle">Read More</button>
+</div>
+
+  <script>  
+    $(document).ready(function() {
+  $("#toggle").click(function() {
+    var elem = $("#toggle").text();
+    if (elem == "Read More") {
+
+      $("#toggle").text("Read Less");
+      $("#text").slideDown();
+    } else {
+
+      $("#toggle").text("Read More");
+      $("#text").slideUp();
+    }
+  });
+});
+    </script> 
+    
+    
+</body>
+</html>
